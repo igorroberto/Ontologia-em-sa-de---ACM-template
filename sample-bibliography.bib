@@ -1,0 +1,745 @@
+
+%%% ====================================================================
+%%%  BibTeX-file{
+%%%     author          = "Gerry Murray",
+%%%     version         = "1.2",
+%%%     date            = "2 April 2012",
+%%%     filename        = "acmsmall-sample-bibfile.bib",
+%%%     address         = "ACM, NY",
+%%%     email           = "murray at hq.acm.org",
+%%%     codetable       = "ISO/ASCII",
+%%%     keywords        = "ACM Reference Format, bibliography, citation, references",
+%%%     supported       = "yes",
+%%%     docstring       = "This BibTeX database file contains 'bibdata' entries
+%%%                        that 'match' the examples provided in the Specifications Document
+%%%                        AND, also, 'legacy'-type bibs. It should assist authors in
+%%%                        choosing the 'correct' at-bibtype and necessary bib-fields
+%%%                        so as to obtain the appropriate ACM Reference Format output.
+%%%                        It also contains many 'Standard Abbreviations'. "
+%%%  }
+%%% ====================================================================
+
+% Journals
+
+% First the Full Name is given, then the abbreviation used in the AMS Math
+% Reviews, with an indication if it could not be found there.
+% Note the 2nd overwrites the 1st, so swap them if you want the full name.
+
+ %{AMS}
+ @String{AMSTrans = "American Mathematical Society Translations" }
+ @String{AMSTrans = "Amer. Math. Soc. Transl." }
+ @String{BullAMS = "Bulletin of the American Mathematical Society" }
+ @String{BullAMS = "Bull. Amer. Math. Soc." }
+ @String{ProcAMS = "Proceedings of the American Mathematical Society" }
+ @String{ProcAMS = "Proc. Amer. Math. Soc." }
+ @String{TransAMS = "Transactions of the American Mathematical Society" }
+ @String{TransAMS = "Trans. Amer. Math. Soc." }
+
+ %ACM
+ @String{CACM = "Communications of the {ACM}" }
+ @String{CACM = "Commun. {ACM}" }
+ @String{CompServ = "Comput. Surveys" }
+ @String{JACM = "J. ACM" }
+ @String{ACMMathSoft = "{ACM} Transactions on Mathematical Software" }
+ @String{ACMMathSoft = "{ACM} Trans. Math. Software" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newsletter" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newslett." }
+
+ @String{AmerSocio = "American Journal of Sociology" }
+ @String{AmerStatAssoc = "Journal of the American Statistical Association" }
+ @String{AmerStatAssoc = "J. Amer. Statist. Assoc." }
+ @String{ApplMathComp = "Applied Mathematics and Computation" }
+ @String{ApplMathComp = "Appl. Math. Comput." }
+ @String{AmerMathMonthly = "American Mathematical Monthly" }
+ @String{AmerMathMonthly = "Amer. Math. Monthly" }
+ @String{BIT = "{BIT}" }
+ @String{BritStatPsych = "British Journal of Mathematical and Statistical
+          Psychology" }
+ @String{BritStatPsych = "Brit. J. Math. Statist. Psych." }
+ @String{CanMathBull = "Canadian Mathematical Bulletin" }
+ @String{CanMathBull = "Canad. Math. Bull." }
+ @String{CompApplMath = "Journal of Computational and Applied Mathematics" }
+ @String{CompApplMath = "J. Comput. Appl. Math." }
+ @String{CompPhys = "Journal of Computational Physics" }
+ @String{CompPhys = "J. Comput. Phys." }
+ @String{CompStruct = "Computers and Structures" }
+ @String{CompStruct = "Comput. \& Structures" }
+ @String{CompJour = "The Computer Journal" }
+ @String{CompJour = "Comput. J." }
+ @String{CompSysSci = "Journal of Computer and System Sciences" }
+ @String{CompSysSci = "J. Comput. System Sci." }
+ @String{Computing = "Computing" }
+ @String{ContempMath = "Contemporary Mathematics" }
+ @String{ContempMath = "Contemp. Math." }
+ @String{Crelle = "Crelle's Journal" }
+ @String{GiornaleMath = "Giornale di Mathematiche" }
+ @String{GiornaleMath = "Giorn. Mat." } % didn't find in AMS MR., ibid.
+
+ %IEEE
+ @String{Computer = "{IEEE} Computer" }
+ @String{IEEETransComp = "{IEEE} Transactions on Computers" }
+ @String{IEEETransComp = "{IEEE} Trans. Comput." }
+ @String{IEEETransAC = "{IEEE} Transactions on Automatic Control" }
+ @String{IEEETransAC = "{IEEE} Trans. Automat. Control" }
+ @String{IEEESpec = "{IEEE} Spectrum" } % didn't find in AMS MR
+ @String{ProcIEEE = "Proceedings of the {IEEE}" }
+ @String{ProcIEEE = "Proc. {IEEE}" } % didn't find in AMS MR
+ @String{IEEETransAeroElec = "{IEEE} Transactions on Aerospace and Electronic
+     Systems" }
+ @String{IEEETransAeroElec = "{IEEE} Trans. Aerospace Electron. Systems" }
+
+ @String{IMANumerAna = "{IMA} Journal of Numerical Analysis" }
+ @String{IMANumerAna = "{IMA} J. Numer. Anal." }
+ @String{InfProcLet = "Information Processing Letters" }
+ @String{InfProcLet = "Inform. Process. Lett." }
+ @String{InstMathApp = "Journal of the Institute of Mathematics and
+     its Applications" }
+ @String{InstMathApp = "J. Inst. Math. Appl." }
+ @String{IntControl = "International Journal of Control" }
+ @String{IntControl = "Internat. J. Control" }
+ @String{IntNumerEng = "International Journal for Numerical Methods in
+     Engineering" }
+ @String{IntNumerEng = "Internat. J. Numer. Methods Engrg." }
+ @String{IntSuper = "International Journal of Supercomputing Applications" }
+ @String{IntSuper = "Internat. J. Supercomputing Applic." } % didn't find
+%% in AMS MR
+ @String{Kibernetika = "Kibernetika" }
+ @String{JResNatBurStand = "Journal of Research of the National Bureau
+     of Standards" }
+ @String{JResNatBurStand = "J. Res. Nat. Bur. Standards" }
+ @String{LinAlgApp = "Linear Algebra and its Applications" }
+ @String{LinAlgApp = "Linear Algebra Appl." }
+ @String{MathAnaAppl = "Journal of Mathematical Analysis and Applications" }
+ @String{MathAnaAppl = "J. Math. Anal. Appl." }
+ @String{MathAnnalen = "Mathematische Annalen" }
+ @String{MathAnnalen = "Math. Ann." }
+ @String{MathPhys = "Journal of Mathematical Physics" }
+ @String{MathPhys = "J. Math. Phys." }
+ @String{MathComp = "Mathematics of Computation" }
+ @String{MathComp = "Math. Comp." }
+ @String{MathScand = "Mathematica Scandinavica" }
+ @String{MathScand = "Math. Scand." }
+ @String{TablesAidsComp = "Mathematical Tables and Other Aids to Computation" }
+ @String{TablesAidsComp = "Math. Tables Aids Comput." }
+ @String{NumerMath = "Numerische Mathematik" }
+ @String{NumerMath = "Numer. Math." }
+ @String{PacificMath = "Pacific Journal of Mathematics" }
+ @String{PacificMath = "Pacific J. Math." }
+ @String{ParDistComp = "Journal of Parallel and Distributed Computing" }
+ @String{ParDistComp = "J. Parallel and Distrib. Comput." } % didn't find
+%% in AMS MR
+ @String{ParComputing = "Parallel Computing" }
+ @String{ParComputing = "Parallel Comput." }
+ @String{PhilMag = "Philosophical Magazine" }
+ @String{PhilMag = "Philos. Mag." }
+ @String{ProcNAS = "Proceedings of the National Academy of Sciences
+                    of the USA" }
+ @String{ProcNAS = "Proc. Nat. Acad. Sci. U. S. A." }
+ @String{Psychometrika = "Psychometrika" }
+ @String{QuartMath = "Quarterly Journal of Mathematics, Oxford, Series (2)" }
+ @String{QuartMath = "Quart. J. Math. Oxford Ser. (2)" }
+ @String{QuartApplMath = "Quarterly of Applied Mathematics" }
+ @String{QuartApplMath = "Quart. Appl. Math." }
+ @String{RevueInstStat = "Review of the International Statisical Institute" }
+ @String{RevueInstStat = "Rev. Inst. Internat. Statist." }
+
+ %SIAM
+ @String{JSIAM = "Journal of the Society for Industrial and Applied
+     Mathematics" }
+ @String{JSIAM = "J. Soc. Indust. Appl. Math." }
+ @String{JSIAMB = "Journal of the Society for Industrial and Applied
+     Mathematics, Series B, Numerical Analysis" }
+ @String{JSIAMB = "J. Soc. Indust. Appl. Math. Ser. B Numer. Anal." }
+ @String{SIAMAlgMeth = "{SIAM} Journal on Algebraic and Discrete Methods" }
+ @String{SIAMAlgMeth = "{SIAM} J. Algebraic Discrete Methods" }
+ @String{SIAMAppMath = "{SIAM} Journal on Applied Mathematics" }
+ @String{SIAMAppMath = "{SIAM} J. Appl. Math." }
+ @String{SIAMComp = "{SIAM} Journal on Computing" }
+ @String{SIAMComp = "{SIAM} J. Comput." }
+ @String{SIAMMatrix = "{SIAM} Journal on Matrix Analysis and Applications" }
+ @String{SIAMMatrix = "{SIAM} J. Matrix Anal. Appl." }
+ @String{SIAMNumAnal = "{SIAM} Journal on Numerical Analysis" }
+ @String{SIAMNumAnal = "{SIAM} J. Numer. Anal." }
+ @String{SIAMReview = "{SIAM} Review" }
+ @String{SIAMReview = "{SIAM} Rev." }
+ @String{SIAMSciStat = "{SIAM} Journal on Scientific and Statistical
+     Computing" }
+ @String{SIAMSciStat = "{SIAM} J. Sci. Statist. Comput." }
+
+ @String{SoftPracExp = "Software Practice and Experience" }
+ @String{SoftPracExp = "Software Prac. Experience" } % didn't find in AMS MR
+ @String{StatScience = "Statistical Science" }
+ @String{StatScience = "Statist. Sci." }
+ @String{Techno = "Technometrics" }
+ @String{USSRCompMathPhys = "{USSR} Computational Mathematics and Mathematical
+     Physics" }
+ @String{USSRCompMathPhys = "{U. S. S. R.} Comput. Math. and Math. Phys." }
+ @String{VLSICompSys = "Journal of {VLSI} and Computer Systems" }
+ @String{VLSICompSys = "J. {VLSI} Comput. Syst." }
+ @String{ZAngewMathMech = "Zeitschrift fur Angewandte Mathematik und
+     Mechanik" }
+ @String{ZAngewMathMech = "Z. Angew. Math. Mech." }
+ @String{ZAngewMathPhys = "Zeitschrift fur Angewandte Mathematik und Physik" }
+ @String{ZAngewMathPhys = "Z. Angew. Math. Phys." }
+
+% Publishers % ================================================= |
+
+ @String{Academic = "Academic Press" }
+ @String{ACMPress = "{ACM} Press" }
+ @String{AdamHilger = "Adam Hilger" }
+ @String{AddisonWesley = "Addison-Wesley" }
+ @String{AllynBacon = "Allyn and Bacon" }
+ @String{AMS = "American Mathematical Society" }
+ @String{Birkhauser = "Birkha{\"u}ser" }
+ @String{CambridgePress = "Cambridge University Press" }
+ @String{Chelsea = "Chelsea" }
+ @String{ClaredonPress = "Claredon Press" }
+ @String{DoverPub = "Dover Publications" }
+ @String{Eyolles = "Eyolles" }
+ @String{HoltRinehartWinston = "Holt, Rinehart and Winston" }
+ @String{Interscience = "Interscience" }
+ @String{JohnsHopkinsPress = "The Johns Hopkins University Press" }
+ @String{JohnWileySons = "John Wiley and Sons" }
+ @String{Macmillan = "Macmillan" }
+ @String{MathWorks = "The Math Works Inc." }
+ @String{McGrawHill = "McGraw-Hill" }
+ @String{NatBurStd = "National Bureau of Standards" }
+ @String{NorthHolland = "North-Holland" }
+ @String{OxfordPress = "Oxford University Press" }  %address Oxford or London?
+ @String{PergamonPress = "Pergamon Press" }
+ @String{PlenumPress = "Plenum Press" }
+ @String{PrenticeHall = "Prentice-Hall" }
+ @String{SIAMPub = "{SIAM} Publications" }
+ @String{Springer = "Springer-Verlag" }
+ @String{TexasPress = "University of Texas Press" }
+ @String{VanNostrand = "Van Nostrand" }
+ @String{WHFreeman = "W. H. Freeman and Co." }
+
+%Entries
+
+@Article{Abril07,
+  author        = "Patricia S. Abril and Robert Plant",
+  title         = "The patent holder's dilemma: Buy, sell, or troll?",
+  journal       = "Communications of the ACM",
+  volume        = "50",
+  number        = "1",
+  month         = jan,
+  year          = "2007",
+  pages         = "36--44",
+  doi           = "10.1145/1188913.1188915",
+  url           = "http://doi.acm.org/10.1145/1219092.1219093",
+  note          = "",
+}
+
+@Article{Cohen07,
+  author        = "Sarah Cohen and Werner Nutt and Yehoshua Sagic",
+  title         = "Deciding equivalances among conjunctive aggregate queries",
+  journal       = JACM,
+  articleno     = "5",
+  numpages      = "50",
+  volume        = "54",
+  number        = "2",
+  month         = apr,
+  year          = "2007",
+  doi           = "10.1145/1219092.1219093",
+  url           = "http://doi.acm.org/10.1145/1219092.1219093",
+  acmid         = "1219093",
+  note          = "",
+}
+
+
+@periodical{JCohen96,
+  key =          "Cohen",
+  editor =       "Jacques Cohen",
+  title =        "Special issue: Digital Libraries",
+  journal =      CACM,
+  volume =       "39",
+  number =       "11",
+  month =        nov,
+  year =         "1996",
+}
+
+
+@Book{Kosiur01,
+  author =       "David Kosiur",
+  title =        "Understanding Policy-Based Networking",
+  publisher =    "Wiley",
+  year =         "2001",
+  address =      "New York, NY",
+  edition =      "2nd.",
+  editor =       "",
+  volume =       "",
+  number =       "",
+  series =       "",
+  month =        "",
+  note =         "",
+}
+
+
+@Book{Harel79,
+  author =       "David Harel",
+  year =         "1979",
+  title =        "First-Order Dynamic Logic",
+  series =       "Lecture Notes in Computer Science",
+  volume =       "68",
+  address =      "New York, NY",
+  publisher =    "Springer-Verlag",
+  doi =          "10.1007/3-540-09237-4",
+  url =          "http://dx.doi.org/10.1007/3-540-09237-4",
+  editor =       "",
+  number =       "",
+  month =        "",
+  note =         "",
+}
+
+
+@Inbook{Editor00,
+  author =       "",
+  editor =       "Ian Editor",
+  title =        "The title of book one",
+  subtitle =     "The book subtitle",
+  series =       "The name of the series one",
+  year =         "2007",
+  volume =       "9",
+  address =      "Chicago",
+  edition =      "1st.",
+  publisher =    "University of Chicago Press",
+  doi =          "10.1007/3-540-09237-4",
+  url =          "http://dx.doi.org/10.1007/3-540-09456-9",
+  chapter =      "",
+  pages =        "",
+  number =       "",
+  type =         "",
+  month =        "",
+  note =         "",
+}
+
+%
+@InBook{Editor00a,
+  author =       "",
+  editor =       "Ian Editor",
+  title =        "The title of book two",
+  subtitle =     "The book subtitle",
+  series =       "The name of the series two",
+  year =         "2008",
+  address =      "Chicago",
+  edition =      "2nd.",
+  publisher =    "University of Chicago Press",
+  doi =          "10.1007/3-540-09237-4",
+  url =          "http://dx.doi.org/10.1007/3-540-09456-9",
+  volume =       "",
+  chapter =      "100",
+  pages =        "",
+  number =       "",
+  type =         "",
+  month =        "",
+  note =         "",
+}
+
+
+% incollection (has an editor, title, and possibly a booktitle)
+@Incollection{Spector90,
+  author =       "Asad Z. Spector",
+  title =        "Achieving application requirements",
+  booktitle =    "Distributed Systems",
+  publisher =    "ACM Press",
+  address =      "New York, NY",
+  year =         "1990",
+  edition =      "2nd.",
+  chapter =      "",
+  editor =       "Sape Mullender",
+  pages =        "19--33",
+  doi =          "10.1145/90417.90738",
+  url =          "http://doi.acm.org/10.1145/90417.90738",
+  volume =       "",
+  number =       "",
+  series =       "",
+  type =         "",
+  month =        "",
+  note =         "",
+}
+
+
+% incollection (has an editor, title, and possibly a booktitle)
+@Incollection{Douglass98,
+  author =       "Bruce P. Douglass and David Harel and Mark B. Trakhtenbrot",
+  title =        "Statecarts in use: structured analysis and object-orientation",
+  series =       "Lecture Notes in Computer Science",
+  booktitle =    "Lectures on Embedded Systems",
+  publisher =    "Springer-Verlag",
+  address =      "London",
+  volume =       "1494",
+  year =         "1998",
+  chapter =      "",
+  editor =       "Grzegorz Rozenberg and Frits W. Vaandrager",
+  pages =        "368--394",
+  doi =          "10.1007/3-540-65193-4_29",
+  url =          "http://dx.doi.org/10.1007/3-540-65193-4_29",
+  edition =      "",
+  number =       "",
+  type =         "",
+  month =        "",
+  note =         "",
+}
+
+
+@Book{Knuth97,
+  author =       "Donald E. Knuth",
+  title =        "The Art of Computer Programming, Vol. 1: Fundamental Algorithms (3rd. ed.)",
+  publisher =    "Addison Wesley Longman Publishing Co., Inc.",
+  year =         "1997",
+  address =      "",
+  edition =      "",
+  editor =       "",
+  volume =       "",
+  number =       "",
+  series =       "",
+  month =        "",
+  note =         "",
+}
+
+
+@Book{Knuth98,
+  author =       "Donald E. Knuth",
+  year =         "1998",
+  title =        "The Art of Computer Programming",
+  series =       "Fundamental Algorithms",
+  volume =       "1",
+  edition =      "3rd",
+  address =      "",
+  publisher =    "Addison Wesley Longman Publishing Co., Inc.",
+  doi =          "",
+  url =          "",
+  editor =       "",
+  number =       "",
+  month =        "",
+  note =         "(book)",
+}
+
+%Inbook{Knuth97,
+%  author =       "Donald E. Knuth",
+%  title =        "The Art of Computer Programming",
+%  booktitle =    "the booktitle",
+%  edition =      "3",
+%  volume =       "1",
+%  year =         "1997",
+%  publisher =    "Addison Wesley Longman Publishing Co., Inc.",
+%  editor =       "",
+%  number =       "",
+%  series =       "Fundamental Algorithms",
+%  type =         "",
+%  chapter =      "",
+%  pages =        "",
+%  address =      "",
+%  month =        "",
+%  note =         "(inbook)",
+%}
+
+%INBOOK{DK:73-inbook-full,
+%   author = "Donald E. Knuth",
+%   title = "Fundamental Algorithms (inbook w series)",
+%   volume = 1,
+%   series = "The Art of Computer Programming",
+%   publisher = "Addison-Wesley",
+%   address = "Reading, Massachusetts",
+%   edition = "Second",
+%   month = "10~" # jan,
+%   year = "1973",
+%   type = "Section",
+%   chapter = "1.2",
+%   pages = "10--119",
+%   note = "Full INBOOK entry (w series)",
+%}
+
+%INcollection{DK:74-incoll,
+%   author = "Donald E. Knuth",
+%   title = "Fundamental Algorithms (incoll)",
+%   volume = 1,
+%   booktitle = "The Art of Computer Programming",
+%   publisher = "Addison-Wesley",
+%   address = "Reading, Massachusetts",
+%   month = "10~" # jan,
+%   year = "1974",
+%   pages = "10--119",
+%   editor = "Bernard Rous",
+%   note = "This is a full incoll entry with an editor",
+%}
+
+%INcollection{DK:75-incollws,
+%   author = "Donald E. Knuth",
+%   title = "Fundamental Algorithms (incoll w series)",
+%   volume = 1,
+%   booktitle = "The Art of Computer Programming",
+%   series = "The Art of Computer Programming",
+%   publisher = "Addison-Wesley",
+%   address = "Reading, Massachusetts",
+%   month = "10~" # jan,
+%   year = "1975",
+%   pages = "10--119",
+%   editor = "Bernard Rous",
+%   note = "This is a full incoll entry with an editor and series",
+%}
+
+
+@incollection{GM05,
+Author= "Dan Geiger and Christopher Meek",
+Title= "Structured Variational Inference Procedures and their Realizations (as incol)",
+Year= 2005,
+Booktitle="Proceedings of Tenth International Workshop on Artificial Intelligence and Statistics, {\rm The Barbados}",
+Publisher="The Society for Artificial Intelligence and Statistics",
+Month= jan,
+Editors= "Z. Ghahramani and R. Cowell"
+}
+
+@Inproceedings{GONCALVES,
+  author =       "GONCALVES, João Paulo Pereira et al",
+  title =        "Prontuário Eletrônico: uma ferramenta que pode contribuir para a integração das Redes de Atenção à Saúde",
+  booktitle =    "Saúde em Debate",
+  series =       "n.96",
+  editor =       "",
+  volume =       "37",
+  year =         "2013",
+  publisher =    "",
+  address =      "",
+  pages =        "",
+  doi =          "10.1590/S0103-11042013000100006",
+  url =          "http://dx.doi.org/10.1590/S0103-11042013000100006",
+  number =       "",
+  month =        "",
+  organization = "",
+  note =         "",
+}
+
+@Inproceedings{MARIN,
+  author =       "Marin HF, Massad E, Azevedo Neto RS",
+  year =         "2003",
+  title =        "Prontuário eletrônico
+do paciente: definições e conceitos",
+  booktitle =    "O prontuário eletrônico do
+paciente na assistência, informação e conhecimento médico",
+  series =       "",
+  publisher =    "",
+  address =      "São Paulo",
+  articleno =    "7",
+  numpages =     "9",
+  editor =       "",
+  volume =       "",
+  number =       "",
+  pages =        "1-20",
+  month =        "",
+  organization = "Universidade de São Paulo",
+  note =         "",
+}
+
+@Inproceedings{PATRICIO,
+  author =       "Camila Mendes Patrício et al",
+  year =         "2011",
+  title =        "O prontuário eletrônico do paciente no sistema de saúde brasileiro: uma realidade para os médicos?",
+  booktitle =    "",
+  series =       "",
+  publisher =    "",
+  address =      "",
+  articleno =    "",
+  numpages =     "",
+  url =       "http://revistaseletronicas.pucrs.br/ojs/index.php/scientiamedica/article/viewFile/8723/6722&gt;.",
+  volume =       "",
+  number =       "",
+  pages =        "",
+  month =        "",
+  organization = "PUC-RS",
+  note =         "",
+}
+
+@Inproceedings{Downing,
+  author =       "Downing GJ, Boyle SN, Brinner KM, Osheroff JA",
+  year =         "2009",
+  title =        "Information management to enable personalized medicine: stakeholder roles in building clinical decision support",
+  booktitle =    "",
+  series =       "",
+  publisher =    "",
+  address =      "",
+  articleno =    "",
+  numpages =     "",
+  editor =       "",
+  volume =       "",
+  doi =          "10.1186/1472-6947-9-44",
+  pages =        "",
+  month =        "",
+  organization = "",
+  note =         "",
+}
+%daqui pra baixo
+@Inproceedings{SALVADOR,
+  author =       "Salvador VFM, Almeida Filho FV",
+  title =        "Aspectos éticos e de
+segurança do prontuário eletrônico do paciente",
+  booktitle =    "Proceedings of the 6th. ACM SIGACT-SIGPLAN symposium on Principles of Programming Languages",
+  year =         "2005",
+  address =      "Marília SP. Brasil",
+  url =          "http://www.uel.br/projetos/oicr/pages/
+arquivos/Valeria_Farinazzo_aspecto_etico.pdf",
+  editor =       "",
+  volume =       "",
+  number =       "",
+  month =        "",
+  organization = "",
+  note =         "",
+}
+
+@Inproceedings{DIAS,
+  author =       "Dias JL",
+  year =         "2008",
+  title =        "A utilização do prontuário eletrônico do paciente pelos hospitais de Belo Horizonte",
+  url =  "http://www.cibersociedad.net/textos/articulo.php?art=194"
+}
+
+@Inproceedings{SIBIS,
+author = {Socieddade Brasileira de Informática em Saúde},
+title = {Prontuário Eletrônico - A certificação de sistemas de registro eletrônico de saúde},
+  year =         "2012",
+url = "https://portal.cfm.org.br/crmdigital/Cartilha_SBIS_CFM_Prontuario_Eletronico_fev_2012.pdf"
+}
+
+@article{CHAPURLAT20121523,
+    title = "System interoperability: definition and proposition of interface model in MBSE Context",
+    journal = "IFAC Proceedings Volumes",
+    volume = "45",
+    number = "6",
+    pages = "1523 - 1528",
+    year = "2012",
+    note = "14th IFAC Symposium on Information Control Problems in Manufacturing",
+    issn = "1474-6670",
+    doi = "https://doi.org/10.3182/20120523-3-RO-2023.00174",
+    url = "http://www.sciencedirect.com/science/article/pii/S1474667016333675",
+    author = "V. Chapurlat and N. Daclin",
+    keywords = "Systems Engineering, Model Based Systems Engineering (MBSE), Interoperability, System interoperability, Interface, Verification"
+}
+
+@article{SCIARRA,
+    title = "Informática em Saúde e a Interoperabilidade nos Sistemas Hospitalares",
+    journal = "Arquivos de Ciências da Saúde",
+    year = "2018",
+    issn = "2318-3691",
+    doi = "https://doi.org/10.17696/2318-3691.25.2.2018.1262",
+    url = "http://www.cienciasdasaude.famerp.br/index.php/racs/article/view/1262/760",
+    author = "SCIARRA, Adília Maria Pires; RONDINA, João Marcelo",
+}
+
+
+@article{BRASIL1998,
+    title = "Portaria nº 3.947/GM, de 25 de novembro de 1998",
+    journal = "Diário Oficial da União",
+    year = "1998",
+   url = "http://cnes.datasus.gov.br/Portarias/3947RIPSArepub.htm",
+    author = "Ministério da Saúde"
+    
+}
+
+
+@article{BRASIL2011,
+    title = "Portaria nº 2.073, de 31 de Agosto de 2011. ",
+    journal = "Diário Oficial da União",
+    year = "2011",
+   url = "http://bvsms.saude.gov.br/bvs/saudelegis/gm/2011%20/prt2073_31_08_2011.html",
+    author = "Ministério da Saúde",
+    abstract = "Regulamenta o uso de padrões de interoperabilidade e informação em saúde para sistemas de informação em saúde no âmbito do Sistema Único de Saúde, nos níveis Municipal, Distrital, Estadual e Federal, e para os sistemas privados e do setor de saúde suplementar"
+}
+
+
+@article{TRIAGEMAVALICAO,
+    title = "Valor de predição do Sistema de Triagem de Manchester: avaliação dos desfechos clínicos de pacientes",
+    journal = "Revista Brasileira de Enfermagem",
+    year = "2015",
+   url = "http://www.scielo.br/pdf/reben/v68n1/0034-7167-reben-68-01-0045.pdf",
+    author = "Helisamara Mota GuedesI
+, José Carlos Amado MartinsII, Tânia Couto Machado ChiancaIII"
+}
+
+@article{HOFWEBER,
+    title = "Logic and ontology",
+    journal = "The Stanford Encyclopediaof Philosophy",
+    year = "2018",
+    author = "HOFWEBER"
+}
+
+@article{INTEROPENEHR,
+    title = "INTEROPERABILIDADE SEMÂNTICA EM SISTEMAS DE INFORMAÇÃO DE SAÚDE POR MEIO DE ONTOLOGIAS FORMAIS E INFORMAIS: UM ESTUDO DA NORMA OPENEHR",
+    journal = "Conferência Internacional Acesso Aberto, Preservação Digital, Interoperabilidade, Visibilidade e Dados Científicos 2014",
+    year = "2014",
+   url = "http://mba.eci.ufmg.br/downloads/Biredial2014_144_web.pdf",
+    author = "FARINELLI, F.; ALMEIDA, M.B."
+}
+
+@online{UKOLN,
+  author =    {UKOLN},
+  title =  {Interoperability focus: looking at interoperability},
+  url =    {http://www.ukoln.ac.uk/interop-focus/about/leaflet.html},
+  lastaccessed = {2018},
+    year = {2005}
+  }
+
+@online{HIMSS,
+  author =    {HIMSS},
+  title =  {What is Interoperability},
+  url =    {https://www.himss.org/library/interoperability-standards/what-is-interoperability},
+  lastaccessed = {2018},
+    year = {2013}
+  }
+  
+  
+@BOOK{ALLEMANG,
+  AUTHOR = "ALLEMANG, D.; HENDLER, J.",
+  TITLE = "Semantic Web for the Working Ontologist. 2.",
+  PUBLISHER = "Elsevier Science ",
+  YEAR = "2011", 
+  isbn = "9780123859662"
+}
+
+
+@article{Nayara,
+    title = "Análise do perfil de encaminhamentos realizados
+pela Atenção Básica/Saúde da Família do município de Belo Horizonte ao serviço de Estomatologia do Hospital Municipal Odilon Behrens",
+    year = "2015",
+   url = "https://seer.ufmg.br/index.php/arquivosemodontologia/article/view/2155/1558",
+    author = "Nayara Roberta de Andrade Barbosa, Aline Fernanda Cruz, Júlio César Tanos de Lacerda, Renata Gonçalves Resende"
+}
+
+@online{SISREG,
+  author =    {Ministério da Saúde},
+  title =  {SISTEMA NACIONAL DE REGULAÇÃO},
+  url =    {http://portalarquivos2.saude.gov.br/images/pdf/2017/janeiro/32/3.b-SISREG-CIT.pdf},
+  lastaccessed = {2018},
+    year = {2017}
+  }
+  
+
+@article{BARRA,
+    title = "Padrões de dados, terminologias e sistemas de classificação para o cuidado em saúde e enfermagem",
+    year = "2011",
+   url = "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0034-71672011000600023",
+    author = "Daniela Couto Carvalho Barra; Grace Teresinha Marcon Dal Sasso"
+}
+
+@article{MIRANDA,
+    title = "Estudo da padronização visando à interoperabilidade: o caso das
+organizações de saúde na cidade de Marília- São Paulo",
+    year = "2015",
+   url = "https://www.marilia.unesp.br/Home/Pos-Graduacao/CienciadaInformacao/Dissertacoes/miranca_njdo_me_mar.pdf",
+    author = "Miranda, Nelson Júlio de Oliveira"
+}
+
+@online{DATASUS,
+  author =    {Datasus},
+  title =  {Saúde lança edital para informatizar 100\% das unidades básicas do SUS},
+  url =    {http://datasus.saude.gov.br/noticias/atualizacoes/1112-saude-lanca-edital-para-informatizar-100-das-unidades-basicas-do-sus},
+  lastaccessed = {2018},
+    year = {2017}
+  }
+  
+  @online{DATASUS2016,
+  author =    {Datasus},
+  title =  {Prontuário Eletrônico chega a 57 milhões de brasileiros},
+  url =    {http://datasus.saude.gov.br/noticias/atualizacoes/1073-prontuario-eletronico-chega-a-57-milhoes-de-brasileiros},
+  lastaccessed = {2018},
+    year = {2016}
+  }
